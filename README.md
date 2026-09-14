@@ -25,30 +25,74 @@ A multi-page healthcare website designed to connect users with essential health 
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home Page1](C:\Users\hp\Desktop\Lankan-Health-Bridge\Screenshots\home page1.png)
+![Home Page2](C:\Users\hp\Desktop\Lankan-Health-Bridge\Screenshots\home page2.png)
+![Home Page3](C:\Users\hp\Desktop\Lankan-Health-Bridge\Screenshots\home page3.png)
+![Home Page4](C:\Users\hp\Desktop\Lankan-Health-Bridge\Screenshots\home page4.png)
+![Home Page5](C:\Users\hp\Desktop\Lankan-Health-Bridge\Screenshots\home page 5.png)
+
+### ℹ️ About Us Page
+
+![About Us Page1](C:\Users\hp\Desktop\Lankan-Health-Bridge\Screenshots\about us page1.png)
+![About Us Page1](C:\Users\hp\Desktop\Lankan-Health-Bridge\Screenshots\about us page2.png)
+
+### 🩺 Services Page
+
+![Services Page1](Screenshots/services page1.png)
+![Services Page1](Screenshots/services page2.png)
+
+### 📞 Contact Us Page
+
+![Contact Us Page](C:\Users\hp\Desktop\Lankan-Health-Bridge\Screenshots\contact us page.png)
+
+### 🔐 Login Page
+
+![Login Page](C:\Users\hp\Desktop\Lankan-Health-Bridge\Screenshots\login page.pngi)
+
+### ✍️ Signup Page
+
+![Signup Page](C:\Users\hp\Desktop\Lankan-Health-Bridge\Screenshots\sign up page.png)
+---
 ## 📂 Project Structure
+
 Lankan-Health-Bridge/
 │
-├── index.html # Home page
-├── Homepage.html # Home page alternative
-├── Aboutpage.html # About page
-├── Contactpage.html # Contact page
-├── Loginpage.html # User login page
-├── Signuppage.html # User signup page
-├── Servicespage.html # Healthcare services page
+├── HTML Pages
+│ ├── Homepage.html
+│ ├── Aboutpage.html
+│ ├── Contactpage.html
+│ ├── Servicespage.html
+│ ├── Loginpage.html
+│ └── Signuppage.html
 │
-├── css/ # Stylesheets
+├── CSS Stylesheets
+│ ├── Homepage.css
 │ ├── Aboutpage.css
 │ ├── Contactpage.css
-│ ├── Homepage.css
-│ ├── Loginpage.css
 │ ├── Servicespage.css
+│ ├── Loginpage.css
 │ └── SignUppage.css
 │
-├── images/ # Project images
+├── Screenshots/
+│ ├── home-1.png
+│ ├── home-2.png
+│ ├── home-3.png
+│ ├── home-4.png
+│ ├── home-5.png
+│ ├── about-1.png
+│ ├── about-2.png
+│ ├── services-1.png
+│ ├── services-2.png
+│ ├── contact.png
+│ ├── login.png
+│ └── signup.png
+│
+├── images/ # Site images (logos, banners, etc.)
 └── README.md
-
-text
-
 ---
 
 ## 🚀 Getting Started
