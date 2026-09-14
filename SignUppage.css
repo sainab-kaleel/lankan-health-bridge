@@ -1,0 +1,274 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+/* Navbar Styling */
+.navbar {
+    background-color: #2a8c89;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar h1 {
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 15px #000000;
+    font-size: 75px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: inline-flex;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;  /* Padding around the text */
+    border-radius: 5px;   /* Rounded corners */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, border 0.3s ease; /* Smooth transitions */
+}
+
+/* Button hover effect */
+.navbar nav ul li a:hover {
+    background-color: #b8dcdB;  /* Darker green on hover */
+    border: 2px solid #b8dcdB;  /* Slightly darker border when hovering */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Stronger shadow on hover */
+    transform: scale(1.05);       /* Slightly enlarge the button on hover */
+}
+
+/* Button active effect */
+.navbar nav ul li a:active {
+    background-color: #b8dcdB;  /* Even darker green when button is clicked */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  /* Subtle shadow when clicked */
+    transform: scale(0.95);      /* Shrink the button slightly when clicked */
+}
+
+/* Button Focus Effect (for accessibility) */
+.navbar nav ul li a:focus {
+    outline: none;  /* Remove default outline */
+    box-shadow: 0 0 10px #b8dcdB; /* Green glow effect when focused */
+}
+/* Styling for Navigation Links */
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;  /* Stack the nav links vertically */
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 10px 0;  /* Space between links */
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #b8dcdB;  /* Highlight on hover */
+}
+/* Styling for Sign Up and Log In buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  /* Adds space between Sign Up and Log In buttons */
+}
+
+/* Styling for each button */
+.nav-buttons .btn {
+    background-color: #b8dcdB;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+.nav-buttons .btn:hover {
+    background-color: #b8dcdB;
+    border: 2px solid #b8dcdB;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+/* Button active effect */
+.nav-buttons .btn:active {
+    background-color: #b8dcdB;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+}
+
+/* Button Focus (for accessibility) */
+.nav-buttons .btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(72, 189, 124, 0.6);
+}
+
+
+
+/* Sign-Up Section */
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 40px 0;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.signup-container {
+    background: linear-gradient(135deg, #a0b4b9, #2a8c89);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 450px;  /* Adjusted width */
+    max-width: 100%;
+    text-align: center;
+
+}
+
+.signup-container h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px black;
+}
+
+.signup-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.signup-table td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.signup-table td label {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.signup-table td input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #2a8c89;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.signup-table td input:focus {
+    border-color: #2a8c89;
+    outline: none;
+}
+
+/* Submit Button Styling */
+.form-btn {
+    margin-top: 20px;
+}
+
+.form-btn button {
+    width: 100%;
+    padding: 15px;
+    background-color: #b8dcdB;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+}
+
+.form-btn button:hover {
+    background-color: #68c9b9;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2a8c89;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .navbar h1 {
+        font-size: 28px;
+    }
+
+    .navbar nav ul {
+        display: block;
+        margin: 0;
+    }
+
+    .navbar nav ul li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .signup-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .signup-container h2 {
+        font-size: 24px;
+    }
+
+    .signup-table td label {
+        font-size: 14px;
+    }
+
+    .signup-table td input {
+        font-size: 14px;
+    }
+
+    .form-btn button {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,235 @@
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body and background styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+/* Navbar Styling */
+.navbar {
+    background-color: #2a8c89;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar h1 {
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 15px #000000;
+    font-size: 75px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: inline-flex;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;  /* Padding around the text */
+    border-radius: 5px;   /* Rounded corners */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, border 0.3s ease; /* Smooth transitions */
+}
+
+/* Button hover effect */
+.navbar nav ul li a:hover {
+    background-color: #b8dcdB;  /* Darker green on hover */
+    border: 2px solid #b8dcdB;  /* Slightly darker border when hovering */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Stronger shadow on hover */
+    transform: scale(1.05);       /* Slightly enlarge the button on hover */
+}
+
+/* Button active effect */
+.navbar nav ul li a:active {
+    background-color: #b8dcdB;  /* Even darker green when button is clicked */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  /* Subtle shadow when clicked */
+    transform: scale(0.95);      /* Shrink the button slightly when clicked */
+}
+
+/* Button Focus Effect (for accessibility) */
+.navbar nav ul li a:focus {
+    outline: none;  /* Remove default outline */
+    box-shadow: 0 0 10px #b8dcdB; /* Green glow effect when focused */
+}
+/* Styling for Navigation Links */
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;  /* Stack the nav links vertically */
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 10px 0;  /* Space between links */
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #b8dcdB;  /* Highlight on hover */
+}
+/* Styling for Sign Up and Log In buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  /* Adds space between Sign Up and Log In buttons */
+}
+
+/* Styling for each button */
+.nav-buttons .btn {
+    background-color: #b8dcdB;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+.nav-buttons .btn:hover {
+    background-color: #b8dcdB;
+    border: 2px solid #b8dcdB;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+/* Button active effect */
+.nav-buttons .btn:active {
+    background-color: #b8dcdB;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+}
+
+/* Button Focus (for accessibility) */
+.nav-buttons .btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px #b8dcdB;
+}
+/* Add this to your Loginpage.css or update existing styles */
+.login-container {
+    background: linear-gradient(135deg, #a0b4b9, #2a8c89);
+    width: 100%;
+    max-width: 400px;  /* You can adjust the width of the container */
+    margin: 0 auto;    /* This centers the container horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Section with Gap from Header */
+.login-section {
+    margin-top: 30px; /* Add space between header and form */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+      
+}
+
+.login-table {
+    width: 100%;  /* Ensure the table spans the entire width of the container */
+    border-collapse: collapse; /* Ensures no space between table cells */
+    margin: 0 auto; /* Centers the table horizontally */
+    height: 250px;
+}
+
+.login-table td {
+    padding: 12px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+/* General Styling for Input Fields */
+.login-table input {
+    width: 100%; 
+    height: 10px;                  /* Full width of the parent container */
+    padding: 12px;                 /* Comfortable padding inside the input field */
+    border: 2px solid #115351;        /* Light grey border */
+    border-radius: none;            /* Rounded corners */
+    background-color: white;     /* Light grey background */
+    font-size: 16px;               /* Font size */
+    transition: all 0.3s ease;     /* Smooth transition effect */
+    color:black;                 /* black text color */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+/* Button Container */
+.login-btn {
+    text-align: center; /* Centers the buttons horizontally */
+    margin-top: 20px;    /* Optional: adds space above the buttons */
+}
+
+/* Login Button and cancel button Styling */
+.login-btn button{
+    padding: 12px 20px;
+    background-color: #aad3ac;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 45%; /* Optional: makes the button take up 45% of the container width */
+    margin: 5px; /* Adds space between buttons */
+    text-shadow: 2px 2px 4px #000000;
+      
+} 
+  /* CSS for hiding the form when Cancel is clicked */
+        #cancel:checked + #myForm {
+            display: none;
+        }
+.Login-btn:hover,
+button[type="button"]:hover {
+    background-color: #82d4d2;
+}
+/* Footer styling */
+footer {
+    background-color: #2a8c89;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
