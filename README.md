@@ -8,6 +8,13 @@ A multi-page healthcare website designed to connect users with essential health 
 
 **Lankan Health Bridge** is a front-end web project that provides an accessible platform for users to explore healthcare-related information and services. The site focuses on a clean UI, easy navigation, and a mobile-friendly design.
 
+## 💡 Why I Built This
+
+As part of my HND IT coursework, I wanted to build a real-world
+healthcare website that would help people in Sri Lanka find 
+essential health services online. This project helped me practice
+responsive design and multi-page layouts using HTML and CSS.
+
 ### Key Highlights
 
 - 🎨 Modern, clean UI design
@@ -112,7 +119,7 @@ Double-click index.html, or
 
 Right-click → Open with → your preferred browser
 
-🎯 Features
+## Features
 ✅ Multi-page navigation (Home, Login, Signup, Services)
 
 ✅ Clean and modern UI
@@ -121,13 +128,14 @@ Right-click → Open with → your preferred browser
 
 ✅ Organized CSS structure
 
-🔮 Future Enhancements
+## Future Enhancements
 □ Add JavaScript for interactive features
 □ Backend integration with Node.js & Express
 □ User authentication system
 □ Appointment booking feature
 □ Migrate to React.js (MERN stack)
-👩‍💻 Author
+
+## Author
 Sainab Kaleel
 
 🎓 Final Year HND IT Student
@@ -136,9 +144,10 @@ Sainab Kaleel
 
 🔗 GitHub: @sainab-kaleel
 
-📄 License
+## License
 This project is open-source and available for educational purposes.
 
-⭐ Show Your Support
+## Show Your Support
+*This is my first project, created as part of my HND IT studies. It marks the beginning of my journey as a developer — more projects coming soon. Feedback and suggestions are welcome.*
 If you found this project helpful, please give it a ⭐ on GitHub!
 
