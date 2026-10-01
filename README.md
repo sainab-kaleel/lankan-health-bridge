@@ -1,14 +1,14 @@
-# 🏥 Lankan Health Bridge
+# Lankan Health Bridge
 
 A multi-page healthcare website designed to connect users with essential health services in Sri Lanka. Built with a clean, responsive interface using HTML and CSS.
 
 ---
 
-## 📖 About the Project
+## About the Project
 
 **Lankan Health Bridge** is a front-end web project that provides an accessible platform for users to explore healthcare-related information and services. The site focuses on a clean UI, easy navigation, and a mobile-friendly design.
 
-## 💡 Why I Built This
+##  Why I Built This
 
 As part of my HND IT coursework, I wanted to build a real-world
 healthcare website that would help people in Sri Lanka find 
@@ -17,24 +17,24 @@ responsive design and multi-page layouts using HTML and CSS.
 
 ### Key Highlights
 
-- 🎨 Modern, clean UI design
-- 📱 Fully responsive layout
-- 🧭 Multi-page navigation
-- ♿ User-friendly interface
-- ⚡ Lightweight and fast-loading
+- Modern, clean UI design
+- Fully responsive layout
+- Multi-page navigation
+- User-friendly interface
+- Lightweight and fast-loading
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - **HTML5** – Semantic structure
 - **CSS3** – Styling and responsive design
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🏠 Home Page
+### Home Page
 
 ![Home Page 1](Screenshots/home-1.png)
 ![Home Page 2](Screenshots/home-2.png)
@@ -42,31 +42,31 @@ responsive design and multi-page layouts using HTML and CSS.
 ![Home Page 4](Screenshots/home-4.png)
 ![Home Page 5](Screenshots/home-5.png)
 
-### ℹ️ About Us Page
+###  About Us Page
 
 ![About Us Page 1](Screenshots/about-1.png)
 ![About Us Page 2](Screenshots/about-2.png)
 
-### 🩺 Services Page
+### Services Page
 
 ![Services Page 1](Screenshots/services-1.png)
 ![Services Page 2](Screenshots/services-2.png)
 
-### 📞 Contact Us Page
+### Contact Us Page
 
 ![Contact Us Page](Screenshots/contact.png)
 
-### 🔐 Login Page
+### Login Page
 
 ![Login Page](Screenshots/login.png)
 
-### ✍️ Signup Page
+### Signup Page
 
 ![Signup Page](Screenshots/signup.png)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 Lankan-Health-Bridge/
 │
 ├── HTML Pages
@@ -97,7 +97,7 @@ Lankan-Health-Bridge/
 └── README.md
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
